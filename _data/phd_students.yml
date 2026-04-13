@@ -1,0 +1,17 @@
+- name: Mihnea Cazacu
+  photo: mihnea.jpg
+  info: PhD student with Jack King, Claudio P. da Fonte and Miguel Beneitez, since September 2025 
+  email: mihnea.cazacu@postgrad.manchester.ac.uk
+  number_educ: 0
+
+- name: Person 2
+  photo: cat.jpg
+  info: PhD student, since September 2024 
+  email: person@email.com
+  number_educ: 0
+
+- name: Person 3
+  photo: cat.jpg
+  info: PhD student, since September 2024 
+  email: person@email.com
+  number_educ: 0
