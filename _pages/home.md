@@ -65,10 +65,7 @@ Our research combines numerical innovation with physical validation, specializin
 </div>
 
 
-
 **We are looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)](https://uom-complexfluids.github.io/vacancies) **!**
-
-
 
 
 <figure class="fifth">
