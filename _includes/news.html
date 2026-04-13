@@ -8,4 +8,13 @@
 
 <h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>
 
-    </div>
+</div>
+
+<div class="well">
+<h4>Meetings</h4>
+
+{% for meeting in site.data.meetings %}
+<p>{{ meeting.date }}<br><em>{{ meeting.name }}</em><br>{{ meeting.location }}</p>
+{% endfor %}
+
+</div>
