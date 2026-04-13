@@ -8,17 +8,16 @@ permalink: /
 
 **News: we now have a website!** 
 
-We are a dynamic research group at the [University of Manchester](https://www.manchester.ac.uk) within the departments of Mechanical and Aerospace Engineering, and Chemical Engineering. 
 
-Our group bridges the gap between physical experiments, high-fidelity numerical simulation, and machine learning.
+Welcome to our webpage. We are a research group working in the School of Engineering at the [University of Manchester](https://www.manchester.ac.uk). Our research focusses on *complex* fluids, encompassing many areas of reacting, multi-phase and non-Newtonian flows. 
 
-## 🔬 Our Research Domains
-Our research combines numerical innovation with physical validation, specializing in:
+We work across theory, experiment and numerics, in particular:
 
-* **Numerical Methods:** Advanced development of **high-order** and **mesh-free** particle-based techniques.
-* **Physical Systems:** Simulating **multi-phase**, **reacting** and **non-Newtonian** flows.
+* **Numerical simulations:** We are working both on the development of novel high-fidelity numerical methods for a range of flow types, and also on the use of these (and established) methods to obtain new insights into fundamental physical behaviours. We have a particular focus on complex fluid problems which are challenging for conventional methods, and often require highly accurate or adaptive numerical schemes.
+* **Experimental:** Characterization and validation of complex flow phenomena.
 * **Data-Driven Paradigms:** Integrating **Machine Learning** to accelerate simulations.
-* **Experimental Front:** Characterization and validation of complex flow phenomena.
+
+Use the links above to find out more about our work.
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
