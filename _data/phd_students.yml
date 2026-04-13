@@ -10,8 +10,14 @@
   email: benjamin.cookman@manchester.ac.uk
   number_educ: 0
 
-- name: Person 3
+- name: Lucas Starepravo
   photo: cat.jpg
-  info: PhD student, since September 2024 
-  email: person@email.com
+  info: PhD student, since September 2023, with Jack King, Steven Lind (Cardiff Univ.), Georgios Fourtakas and Ajay Harish.
+  email: lucas.starepravo@manchester.ac.uk
   number_educ: 0
+  
+- name: Dhruv Mistry
+  photo: cat.jpg
+  info: PhD student, since January 2026, with Draga Pihler-Puzović (Physics) and Jack King.
+  email: lucas.starepravo@manchester.ac.uk
+  number_educ: 0  

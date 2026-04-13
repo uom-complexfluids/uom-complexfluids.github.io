@@ -1,6 +1,11 @@
-- name: Person 1
+- name: Henry Broadley
   photo: cat.jpg
   info: TBD
   email: TBD
   number_educ: 0
 
+- name: Chris Stafford
+  photo: cat.jpg
+  info: TBD
+  email: TBD
+  number_educ: 0
