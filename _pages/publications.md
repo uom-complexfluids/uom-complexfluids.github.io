@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Publications"
+title: "Complex Fluids Group - Publications"
 layout: gridlay
-excerpt: "Allan Lab -- Publications."
+excerpt: "Complex Fluids Group -- Publications."
 sitemap: false
 permalink: /publications/
 ---
