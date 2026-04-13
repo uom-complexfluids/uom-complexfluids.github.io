@@ -4,14 +4,3 @@
   email: TBD
   number_educ: 0
 
-- name: Person 2
-  photo: cat.jpg
-  info: TBD
-  email: person@email.com
-  number_educ: 0
-
-- name: Person 3
-  photo: cat.jpg
-  info: Postdoc, since September 2024 
-  email: person@email.com
-  number_educ: 0
