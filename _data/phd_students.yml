@@ -1,23 +1,24 @@
+- name: Dhruv Mistry
+  photo: cat.jpg
+  info: PhD student with Draga Pihler-Puzović (Physics) and Jack King, since January 2026.
+  email: dummy@manchester.ac.uk
+  number_educ: 0  
+
 - name: Mihnea Cazacu
   photo: mihnea.jpg
-  info: PhD student with Jack King, Claudio P. da Fonte and Miguel Beneitez, since September 2025 
+  info: PhD student with Jack King, Claudio P. da Fonte and Miguel Beneitez, since September 2025. 
   email: mihnea.cazacu@postgrad.manchester.ac.uk
   number_educ: 0
 
 - name: Ben Cookman
   photo: ben.jpeg
-  info: PhD student with Jack King, Raphaël Assier (Maths) and Steven Lind (Cardiff Univ.), since January 2024
+  info: PhD student with Jack King, Raphaël Assier (Maths) and Steven Lind (Cardiff Univ.), since January 2024.
   email: benjamin.cookman@manchester.ac.uk
   number_educ: 0
 
 - name: Lucas Starepravo
   photo: cat.jpg
-  info: PhD student, since September 2023, with Jack King, Steven Lind (Cardiff Univ.), Georgios Fourtakas and Ajay Harish.
+  info: PhD student with Jack King, Steven Lind (Cardiff Univ.), Georgios Fourtakas and Ajay Harish, since September 2023.
   email: lucas.starepravo@manchester.ac.uk
   number_educ: 0
   
-- name: Dhruv Mistry
-  photo: cat.jpg
-  info: PhD student, since January 2026, with Draga Pihler-Puzović (Physics) and Jack King.
-  email: lucas.starepravo@manchester.ac.uk
-  number_educ: 0  

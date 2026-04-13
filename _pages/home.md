@@ -6,9 +6,6 @@ sitemap: false
 permalink: /
 ---
 
-**News: we now have a website!** 
-
-
 Welcome to our webpage. We are a research group working in the School of Engineering at the [University of Manchester](https://www.manchester.ac.uk). Our research focusses on *complex* fluids, encompassing many areas of reacting, multi-phase and non-Newtonian flows. 
 
 We work across theory, experiment and numerics, in particular:
