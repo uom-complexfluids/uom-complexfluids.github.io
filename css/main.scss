@@ -10,7 +10,22 @@ img { margin-bottom: 24px;
 
 
 body {
-	padding-top: 70px;
+	padding-top: 90px;
+}
+
+.navbar {
+	min-height: 70px;
+}
+
+.navbar-brand {
+	height: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar-nav > li > a {
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 figcaption {
