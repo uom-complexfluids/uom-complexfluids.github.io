@@ -5,14 +5,14 @@
   number_educ: 0
   education1: Master ETHZ, Diplomarbeit with <a href="http://www.physik.uzh.ch/groups/osterwalder/">J Osterwalder</a>, University of Zurich
 
-- name: Claudio C. P. da Fonte
-  photo: cat.jpg
+- name: Claudio P. da Fonte
+  photo: claudio.jpg
   info: Senior Lecturer in Chemical Engineering
   email: claudio.fonte@manchester.ac.uk
   number_educ: 0
 
 - name: Jack R. C. King
-  photo: cat.jpg
+  photo: jack.jpg
   info: Royal Society University Research Fellow
   email: jack.king@manchester.ac.uk
   number_educ: 0
