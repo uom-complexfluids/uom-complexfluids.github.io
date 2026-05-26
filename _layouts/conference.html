@@ -1,0 +1,113 @@
+---
+layout: default
+---
+<div class="col-sm-12">
+
+  <div class="conference-header">
+    <h1>BRS MWM 2026</h1>
+    <p class="conference-meta">British Rheology Society — Midlands Winter Meeting<br>
+    Conference dates TBC &nbsp;&middot;&nbsp; University of Manchester</p>
+  </div>
+
+  <ul class="nav nav-tabs conference-nav">
+    {% assign section = page.conference_section %}
+    <li role="presentation" {% if section == "home" %}class="active"{% endif %}>
+      <a href="{{ site.url }}{{ site.baseurl }}/conference/">Home</a>
+    </li>
+    <li role="presentation" {% if section == "registration" %}class="active"{% endif %}>
+      <a href="{{ site.url }}{{ site.baseurl }}/conference/registration/">Registration</a>
+    </li>
+    <li role="presentation" {% if section == "program" %}class="active"{% endif %}>
+      <a href="{{ site.url }}{{ site.baseurl }}/conference/program/">Program</a>
+    </li>
+    <li role="presentation" {% if section == "directions" %}class="active"{% endif %}>
+      <a href="{{ site.url }}{{ site.baseurl }}/conference/directions/">Directions</a>
+    </li>
+    <li role="presentation" {% if section == "flyer" %}class="active"{% endif %}>
+      <a href="{{ site.url }}{{ site.baseurl }}/conference/flyer/">Flyer</a>
+    </li>
+  </ul>
+
+  <div class="conference-content">
+    {{ content }}
+  </div>
+
+</div>
+
+<style>
+  .conference-header {
+    padding: 20px 0 10px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+  }
+  .conference-header h1 {
+    margin: 0 0 8px;
+  }
+  .conference-meta {
+    color: #666;
+    margin: 0;
+  }
+  .conference-nav {
+    margin-bottom: 24px;
+  }
+  .conference-content table.program {
+    width: 100%;
+    margin-bottom: 18px;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  .conference-content table.program td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+  }
+  .conference-content table.program td.date {
+    width: 90px;
+    font-weight: bold;
+    color: #444;
+  }
+  .conference-content table.program td.title {
+    font-weight: bold;
+    font-size: 1.05em;
+  }
+  .conference-content table.program td.title-special {
+    font-style: italic;
+    color: #666;
+  }
+  .conference-content table.program td.speaker {
+    color: #555;
+  }
+  .conference-content table.program td.abstract {
+    color: #333;
+    font-size: 0.95em;
+  }
+  .conference-content table.program.plenary td.title {
+    color: #b8000a;
+  }
+  .conference-content iframe.directions {
+    width: 100%;
+    height: 420px;
+    border: 0;
+    margin-bottom: 20px;
+  }
+  .conference-content iframe.registration {
+    width: 100%;
+    height: 900px;
+    border: 0;
+  }
+  .conference-content table.sponsors,
+  .conference-content table.flyers {
+    width: 100%;
+    margin: 18px 0;
+  }
+  .conference-content table.sponsors td,
+  .conference-content table.flyers td {
+    text-align: center;
+    padding: 12px;
+    vertical-align: middle;
+  }
+  .conference-content table.sponsors img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
