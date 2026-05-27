@@ -1,32 +1,30 @@
 ---
 layout: default
 ---
-<div class="col-sm-12">
+<link href="https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab" rel="stylesheet">
 
-  <div class="conference-header">
-    <h1>BRS MWM 2026</h1>
-    <p class="conference-meta">British Rheology Society — Midlands Winter Meeting<br>
-    Conference dates TBC &nbsp;&middot;&nbsp; University of Manchester</p>
+<div class="col-sm-12 conference-page">
+
+  <div class="conference-banner">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/conference/banner.jpg" alt="BRS MWM 2026 Banner" onerror="this.style.display='none'">
+    <div class="banner-top">
+      <span class="title1">BRS</span><span class="title2">MWM</span> <span class="year">2026</span>
+    </div>
+    <div class="banner-bottom">
+      Conference dates TBC <br> University of Manchester
+    </div>
   </div>
 
-  <ul class="nav nav-tabs conference-nav">
-    {% assign section = page.conference_section %}
-    <li role="presentation" {% if section == "home" %}class="active"{% endif %}>
-      <a href="{{ site.url }}{{ site.baseurl }}/conference/">Home</a>
-    </li>
-    <li role="presentation" {% if section == "registration" %}class="active"{% endif %}>
-      <a href="{{ site.url }}{{ site.baseurl }}/conference/registration/">Registration</a>
-    </li>
-    <li role="presentation" {% if section == "program" %}class="active"{% endif %}>
-      <a href="{{ site.url }}{{ site.baseurl }}/conference/program/">Program</a>
-    </li>
-    <li role="presentation" {% if section == "directions" %}class="active"{% endif %}>
-      <a href="{{ site.url }}{{ site.baseurl }}/conference/directions/">Directions</a>
-    </li>
-    <li role="presentation" {% if section == "flyer" %}class="active"{% endif %}>
-      <a href="{{ site.url }}{{ site.baseurl }}/conference/flyer/">Flyer</a>
-    </li>
-  </ul>
+  <table class="conference-navigation">
+    <tr>
+      {% assign section = page.conference_section %}
+      <td><a {% if section == "home" %}class="current"{% endif %} title="Conference Home" href="{{ site.url }}{{ site.baseurl }}/conference/">Home</a></td>
+      <td><a {% if section == "registration" %}class="current"{% endif %} title="Register" href="{{ site.url }}{{ site.baseurl }}/conference/registration/">Registration</a></td>
+      <td><a {% if section == "program" %}class="current"{% endif %} title="Program" href="{{ site.url }}{{ site.baseurl }}/conference/program/">Program</a></td>
+      <td><a {% if section == "directions" %}class="current"{% endif %} title="Directions" href="{{ site.url }}{{ site.baseurl }}/conference/directions/">Directions</a></td>
+      <td><a {% if section == "flyer" %}class="current"{% endif %} title="Flyer" href="{{ site.url }}{{ site.baseurl }}/conference/flyer/">Flyer</a></td>
+    </tr>
+  </table>
 
   <div class="conference-content">
     {{ content }}
@@ -35,70 +33,139 @@ layout: default
 </div>
 
 <style>
-  .conference-header {
-    padding: 20px 0 10px;
-    border-bottom: 1px solid #eee;
-    margin-bottom: 20px;
+  /* Theme colors:
+   *   #fafafa background, #505050 text
+   *   #52739e navy (title2, current nav, special titles)
+   *   #b2132e reddish (title1, link hover)
+   *   #813c54 heading / program title
+   *   #b8860b link
+   */
+
+  .conference-page {
+    font-family: 'Roboto', sans-serif;
+    color: #505050;
+    background: #fafafa;
+    padding: 0 0 40px 0;
   }
-  .conference-header h1 {
-    margin: 0 0 8px;
+
+  .conference-page h1, .conference-page h2,
+  .conference-page h3, .conference-page h4 {
+    color: #813c54;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 1px 1px 2px #d0d0d0;
+    margin: 1.5em 0 0.6em 0;
   }
-  .conference-meta {
-    color: #666;
+
+  .conference-page a { color: #b8860b; text-decoration: underline; text-decoration-color: #b8860b; }
+  .conference-page a:hover { color: #b2132e; }
+  .conference-page a.current { color: #52739e; text-decoration: none; }
+  .conference-page a.current:hover { color: #e82945; }
+
+  /* Banner */
+  .conference-banner {
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 12px;
+    background: linear-gradient(135deg, #52739e 0%, #813c54 60%, #b2132e 100%);
+    min-height: 320px;
+    overflow: hidden;
+  }
+  .conference-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
     margin: 0;
+    border-radius: 0;
   }
-  .conference-nav {
-    margin-bottom: 24px;
+  .conference-banner .banner-top {
+    background: #fafafa;
+    color: #505050;
+    text-align: center;
+    width: 100%;
+    padding: 28px 0 18px 0;
+    font-size: 4.5em;
+    line-height: 1em;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
+  .conference-banner .banner-bottom {
+    color: #fafafa;
+    font-size: 2em;
+    line-height: 1.3em;
+    padding: 0 24px 22px 0;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-shadow: 0 0 6px #000;
+  }
+  .title1 { color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0; margin-right: 0.15em; }
+  .title2 { color: #52739e; text-shadow: 1px 1px 3px #c0c0c0; }
+  .year   { color: #505050; font-size: 0.6em; font-weight: lighter; margin-left: 0.3em; vertical-align: middle; }
+
+  /* Sub-navigation */
+  table.conference-navigation {
+    width: 100%;
+    max-width: 800px;
+    margin: 18px auto 28px auto;
+    border-collapse: collapse;
+  }
+  table.conference-navigation td {
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+    padding: 6px 0;
+    font-size: 1.4em;
+    font-family: 'Roboto Slab', serif;
+  }
+  table.conference-navigation a {
+    text-decoration: none;
+  }
+
+  /* Program tables */
   .conference-content table.program {
     width: 100%;
-    margin-bottom: 18px;
-    border-collapse: separate;
-    border-spacing: 0;
+    max-width: 1000px;
+    margin: 12px auto 18px auto;
+    border-collapse: collapse;
   }
   .conference-content table.program td {
-    padding: 8px 12px;
-    border-bottom: 1px solid #eee;
+    padding: 6px 12px;
     vertical-align: top;
   }
   .conference-content table.program td.date {
-    width: 90px;
-    font-weight: bold;
-    color: #444;
+    width: 110px;
+    text-align: right;
+    white-space: nowrap;
+    padding-right: 18px;
   }
   .conference-content table.program td.title {
-    font-weight: bold;
-    font-size: 1.05em;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.4em;
+    color: #813c54;
+    text-shadow: 1px 1px 2px #d0d0d0;
   }
   .conference-content table.program td.title-special {
-    font-style: italic;
-    color: #666;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.4em;
+    color: #52739e;
+    text-shadow: 1px 1px 2px #d0d0d0;
   }
   .conference-content table.program td.speaker {
-    color: #555;
+    font-style: italic;
   }
-  .conference-content table.program td.abstract {
-    color: #333;
-    font-size: 0.95em;
+  .conference-content table.program.plenary {
+    background: #ffffff;
   }
-  .conference-content table.program.plenary td.title {
-    color: #b8000a;
-  }
-  .conference-content iframe.directions {
-    width: 100%;
-    height: 420px;
-    border: 0;
-    margin-bottom: 20px;
-  }
-  .conference-content iframe.registration {
-    width: 100%;
-    height: 900px;
-    border: 0;
-  }
+
+  /* Sponsors / flyers / iframes */
   .conference-content table.sponsors,
   .conference-content table.flyers {
     width: 100%;
-    margin: 18px 0;
+    max-width: 800px;
+    margin: 18px auto;
+    border-collapse: collapse;
   }
   .conference-content table.sponsors td,
   .conference-content table.flyers td {
@@ -106,8 +173,37 @@ layout: default
     padding: 12px;
     vertical-align: middle;
   }
-  .conference-content table.sponsors img {
+  .conference-content table.sponsors img,
+  .conference-content table.flyers img {
     max-width: 100%;
     height: auto;
+  }
+  .conference-content iframe.registration {
+    display: block;
+    margin: 1em auto 2em auto;
+    width: 100%;
+    max-width: 700px;
+    height: 1400px;
+    border: 0;
+  }
+  .conference-content iframe.directions {
+    display: block;
+    margin: 1em auto 2em auto;
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    border: 0;
+  }
+  .conference-content img.center {
+    display: block;
+    width: 67%;
+    margin: 1em auto 2em auto;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .conference-banner .banner-top { font-size: 2.6em; padding: 16px 0 10px 0; }
+    .conference-banner .banner-bottom { font-size: 1.1em; padding: 0 12px 10px 0; }
+    .conference-banner { min-height: 200px; }
+    table.conference-navigation td { font-size: 1.05em; }
   }
 </style>
