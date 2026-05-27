@@ -1,5 +1,5 @@
 ---
-title: "BRS MWM 2026"
+title: "BSR MWM 2026"
 layout: conference
 conference_section: home
 excerpt: "BRS MWM 2026 conference"
@@ -18,9 +18,14 @@ It's got a page to put up the flyers and other promotional materials for folks t
 This paragraph is just some filler text to give the homepage some volume:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
 
-## Organizers
+## Organising Committee
 
-Here's a good place to list the organizers and sponsors of the conference, as well as list contact information for the organizers, and show off the logos of the sponsors.
+Jack King
+Miguel Beneitez
+Steph Flores
+Claudo Fonte
+Nico Gray
+Anne Juel
 
 <table class="sponsors">
   <tr>

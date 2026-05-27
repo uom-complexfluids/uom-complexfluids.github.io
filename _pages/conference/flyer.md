@@ -1,5 +1,5 @@
 ---
-title: "BRS MWM 2026 — Flyer"
+title: "BSR MWM 2026 — Flyer"
 layout: conference
 conference_section: flyer
 excerpt: "Conference flyer and promotional materials"

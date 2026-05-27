@@ -1,5 +1,5 @@
 ---
-title: "BRS MWM 2026 — Program"
+title: "BSR MWM 2026 — Program"
 layout: conference
 conference_section: program
 excerpt: "Conference program"

@@ -1,5 +1,5 @@
 ---
-title: "BRS MWM 2026 — Directions"
+title: "BSR MWM 2026 — Directions"
 layout: conference
 conference_section: directions
 excerpt: "How to find the conference"
