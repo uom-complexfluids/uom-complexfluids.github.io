@@ -12,7 +12,6 @@ permalink: /conference/program/
 </script>
 
 ## Conference Program
-
 <table class="program">
   <tr>
     <td class="date" rowspan="2">8:30am</td>
