@@ -10,18 +10,18 @@
 - title: "Subyield Dynamics in Yield-Stress Materials"
   image: subyield.png
   description: The paper shows that, once residual slip is accounted for, yield-stress materials below yield do not undergo plastic flow, but instead exhibit bounded nonlinear viscoelastic dynamics, challenging models that allow pre-yield flow and motivating improved constitutive descriptions.  
-  authors: A. Woodbridge, K. Amini, F. Lundell, O. Tammisola, A. Juel, R. J. Poole, and Claudio P. Fonte
+  authors: A. Woodbridge, K. Amini, F. Lundell, O. Tammisola, A. Juel, R. J. Poole, and C. P. Fonte
   link:
     url: https://journals.aps.org/prl/abstract/10.1103/gkv5-9c4l
     display: Phys. Rev. Lett. (2026)
-  highlight: 2
+  highlight: 1
 
 - title: "Network modelling of yield-stress fluid flow in randomly disordered porous media"
   image: network-mod.png
-  description:  
-  authors: A. Woodbridge, K. Amini, F. Lundell, O. Tammisola, A. Juel, R. J. Poole, and Claudio P. Fonte
-  link: This paper develops and validates a physics-based pore-network model for Herschel-Bulkley yield-stress fluids in disordered porous media, showing that near-yield transport is controlled by constriction-scale throat geometry and that wall slip lowers pressure losses by reopening otherwise blocked pathways.
-    url: https://journals.aps.org/prl/abstract/10.1103/gkv5-9c4l
+  description: This paper develops and validates a physics-based pore-network model for Herschel-Bulkley yield-stress fluids in disordered porous media, showing that near-yield transport is controlled by constriction-scale throat geometry and that wall slip lowers pressure losses by reopening otherwise blocked pathways.
+  authors: C. P. Fonte, E. Sutton, K. Ohie, E. Doman, Y. Tasaka, and A. Juel 
+  link:
+    url: https://arxiv.org/pdf/2603.09801v2
     display: Appl. Phys. Lett. (2026)
-  highlight: 3
+  highlight: 1
 
