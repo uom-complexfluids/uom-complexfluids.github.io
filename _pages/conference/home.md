@@ -15,13 +15,13 @@ We particularly encourage Early Career Researchers to present their work at the 
 
 ## Invited Speakers
 
-# Title TBC,
+### Title TBC,
 Prof Catherine Barentin, Institut Lumière Matière, Université Lyon 1.
 
-# Title TBC,
+### Title TBC,
 Prof Alexander Morozov, School of Physics and Astronomy, University of Edinburgh.
 
-# Bridging the Scale Gap: From Grain-Scale Dynamics to Continuum Rheology for Segregating Granular Materials
+### Bridging the Scale Gap: From Grain-Scale Dynamics to Continuum Rheology for Segregating Granular Materials
 Prof Ant Thornton, School of Mathematics, University of Manchester.
 
 A detailed conference schedule will be published in due course.
