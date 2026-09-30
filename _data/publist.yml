@@ -1,3 +1,39 @@
+- title: "Learning mesh-free discrete differential operators with self-supervised graph neural networks"
+  image: cmame.png
+  description: Calculation of kernel weights is costly for weights with polynomial consistency, necessary for accurate simulations. Here we introduce a new method for calculating discrete weights using graph neural networks.
+  authors: L. Gerken Starepravo, G. Fourtakas, S. J. Lind, A. B. Harish, T. Tang and J. R. C. King
+  link:
+    url: https://doi.org/10.1016/j.cma.2026.119388
+    display: CMAME (2026)
+  highlight: 1
+
+- title: "Exploring neural network surrogates for high-order mesh-free interpolants"
+  image: cpm.png
+  description: Calculation of kernel weights is costly for weights with polynomial consistency, necessary for accurate simulations. Can we design a neural network surrogate which bridges a gap between low- and high- order mesh-free interpolants? 
+  authors: L. Gerken Starepravo, G. Fourtakas, S. J. Lind, A. B. Harish and J. R. C. King
+  link:
+    url: https://doi.org/10.1016/j.cpms.2026.09.003
+    display: CPM (2026)
+  highlight: 1
+
+- title: "Compact LABFM - a framework for meshless methods with spectral-like resolving power"
+  image: cl_jcp.png
+  description: Resolving power is a key measure of the performance of a numerical method, with improved resolving power allowing more accurate simulations for a given cost. In this work we develop another framework for improving the resolving power of mesh-free methods. 
+  authors: H. Broadley, J. R. C. King and S. J. Lind
+  link:
+    url: https://doi.org/10.1016/j.jcp.2026.115308
+    display: J. Comput. Phys. (2026)
+  highlight: 1
+
+- title: "Improving the accuracy of meshless methods via resolving power optimisation using multiple kernels"
+  image: mk_jcp.png
+  description: Resolving power is a key measure of the performance of a numerical method, with improved resolving power allowing more accurate simulations for a given cost. In this work we develop a framework for improving the resolving power of mesh-free methods. 
+  authors: H. Broadley, J. R. C. King and S. J. Lind
+  link:
+    url: https://doi.org/10.1016/j.jcp.2026.115238
+    display: J. Comput. Phys. (2026)
+  highlight: 1
+
 - title: "Elasto-inertial transitions in viscoelastic flows through cylinder arrays"
   image: cyl_eit.png
   description: Cylinder arrays make a great prototype for porous media and in this paper we explore how we might trigger elasto-inertial turbulence to improve mixing or increase heat dissipation. 
