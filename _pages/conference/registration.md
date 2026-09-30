@@ -9,10 +9,10 @@ permalink: /conference/registration/
 
 ## Registration
 
-Here we will provide instructions how to register for the conference.
-You can embed a [Google Form](https://www.google.com/forms/about/) into an `iframe` (commented out below).
+Please click [here](https://estore.manchester.ac.uk/conferences-and-events/faculty-of-science-engineering/mechanical-aerospace-engineering/british-society-of-rheology/british-society-of-rheology-mid-winter-meeting) to register.
 
-<!--
-<iframe class="registration" src="EMBED LINK FOR GOOGLE FORM HERE"></iframe>
--->
+The deadline for registration is 6th December.
+
+
+
 

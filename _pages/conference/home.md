@@ -24,9 +24,13 @@ Prof Alexander Morozov, School of Physics and Astronomy, University of Edinburgh
 #### Bridging the Scale Gap: From Grain-Scale Dynamics to Continuum Rheology for Segregating Granular Materials
 Prof Ant Thornton, School of Mathematics, University of Manchester.
 
+## Abstract submission and deadlines
 
+Click [here](WAITING FOR LINK) to submit an abstract.
 
-A detailed conference schedule will be published in due course.
+- Deadline for abstracts: 27th November
+- Deadline for registration: 6th December
+
 
 ## Organising Committee
 
