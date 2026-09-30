@@ -24,7 +24,7 @@ Anne Juel
 
 <table class="sponsors">
   <tr>
-    <td><em>Sponsor logo placeholder</em></td>
+    <td>![My image Name](/images/dummy.png)</td>
     <td><em>Sponsor logo placeholder</em></td>
     <td><em>Sponsor logo placeholder</em></td>
   </tr>
