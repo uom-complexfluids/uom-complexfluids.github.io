@@ -15,7 +15,7 @@ We particularly encourage Early Career Researchers to present their work at the 
 
 ## Invited Speakers
 
-#### Title TBC,
+#### Near-surface dynamics in jammed and slipping microgel suspensions,
 Prof Catherine Barentin, Institut Lumière Matière, Université Lyon 1.
 
 #### Title TBC,
@@ -43,7 +43,7 @@ Anne Juel
 
 <table class="sponsors">
   <tr>
-    <td>![My image Name](/images/dummy.png)</td>
+    <td>[My image Name](/images/dummy.png)</td>
     <td><em>Sponsor logo placeholder</em></td>
     <td><em>Sponsor logo placeholder</em></td>
   </tr>
