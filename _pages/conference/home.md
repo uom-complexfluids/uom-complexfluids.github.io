@@ -22,7 +22,7 @@ Prof Catherine Barentin, Institut Lumière Matière, Université Lyon 1.
 Prof Alexander Morozov, School of Physics and Astronomy, University of Edinburgh.
 
 #### Bridging the Scale Gap: From Grain-Scale Dynamics to Continuum Rheology for Segregating Granular Materials
-Prof Ant Thornton, Department of Mathematics, University of Manchester.
+Prof Anthony Thornton, Department of Mathematics, University of Manchester.
 
 ## Abstract submission and deadlines
 
