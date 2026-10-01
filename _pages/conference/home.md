@@ -38,7 +38,7 @@ Jack King
 Miguel Beneitez  
 Mihnea Cazacu
 Steph Flores  
-Claudo Fonte  
+Cláudio Fonte  
 Nico Gray  
 Anne Juel
 
