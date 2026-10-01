@@ -36,10 +36,13 @@ Click [here](WAITING FOR LINK) to submit an abstract.
 
 Jack King  
 Miguel Beneitez  
+Mihnea Cazacu
 Steph Flores  
 Claudo Fonte  
 Nico Gray  
 Anne Juel
+
+Please email [Mihnea Cazacu](mailto:mihnea.cazacu@postgrad.manchester.ac.uk) with any queries.
 
 <table class="sponsors">
   <tr>
