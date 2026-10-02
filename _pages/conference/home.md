@@ -11,7 +11,7 @@ permalink: /conference/
 
 Known affectionately as the "Winter Solstice" meeting, the BSR Midwinter conference is the main focal point of the British Rheology calendar. It brings together those working in fundamental and applied rheology for a single track, engaging meeting that encourages open dialogue, participation and collaboration. This year we will focus on **Reconciling experiment, theory and computation in rheology**, with invited talks covering diverse application areas and approaches.
 
-We particularly encourage Early Career Researchers to present their work at the meeting, and instructions for abstract submission will be given in due time.
+We particularly encourage Early Career Researchers to present their work at the meeting. Instructions for abstract submission are given below.
 
 ## Invited Speakers
 
