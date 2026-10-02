@@ -34,13 +34,13 @@ Click [here](https://forms.cloud.microsoft/e/qQci2P75JL) to submit an abstract f
 
 ## Organising Committee
 
-Jack King  
-Miguel Beneitez  
-Mihnea Cazacu
-Steph Flores  
-Cláudio P. Fonte  
-Nico Gray  
-Anne Juel
+- Jack King  
+- Miguel Beneitez  
+- Mihnea Cazacu
+- Steph Flores  
+- Cláudio P. Fonte  
+- Nico Gray  
+- Anne Juel
 
 Please email [Mihnea Cazacu](mailto:mihnea.cazacu@postgrad.manchester.ac.uk) with any queries.
 
