@@ -26,7 +26,7 @@ Prof Anthony Thornton, Department of Mathematics, University of Manchester.
 
 ## Abstract submission and deadlines
 
-Click [here](WAITING FOR LINK) to submit an abstract for an oral or poster presentation.
+Click [here](https://forms.cloud.microsoft/e/qQci2P75JL) to submit an abstract for an oral or poster presentation.
 
 - Deadline for abstracts: 27th November
 - Deadline for registration: 6th December
