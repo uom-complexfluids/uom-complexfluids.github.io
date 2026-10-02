@@ -46,7 +46,7 @@ Please email [Mihnea Cazacu](mailto:mihnea.cazacu@postgrad.manchester.ac.uk) wit
 
 <table class="sponsors">
   <tr>
-    <td><img src="images/dummy.png" class="c" width="100%"></td>
+    <td><img src="images/bsrlogo.jpg" class="r" width="100%"></td>
     <td><em>Sponsor logo placeholder</em></td>
     <td><em>Sponsor logo placeholder</em></td>
   </tr>
