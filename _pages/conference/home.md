@@ -48,7 +48,6 @@ Please email [Mihnea Cazacu](mailto:mihnea.cazacu@postgrad.manchester.ac.uk) wit
   <tr>
     <td><img src="/images/bsrlogo.jpg" class="r" width="100%"></td>
     <td><img src="/images/uomlogo.png" class="r" width="100%"></td>    
-    <td><img src="/images/ioplogo.png" class="r" width="100%"></td>    
   </tr>
 </table>
 
