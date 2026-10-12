@@ -6,7 +6,6 @@ layout: default
 <div class="col-sm-12 conference-page">
 
   <div class="conference-banner">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/conference/banner.jpg" alt="BSR MWM 2026 Banner" onerror="this.style.display='none'">
     <div class="banner-top">
       <span class="title1">British Society of Rheology</span>
       <span class="title2">Midwinter Meeting</span> <span class="year">2026</span>
@@ -23,7 +22,7 @@ layout: default
       <td><a {% if section == "registration" %}class="current"{% endif %} title="Register" href="{{ site.url }}{{ site.baseurl }}/conference/registration/">Registration</a></td>
       <td><a {% if section == "program" %}class="current"{% endif %} title="Program" href="{{ site.url }}{{ site.baseurl }}/conference/program/">Program</a></td>
       <td><a {% if section == "directions" %}class="current"{% endif %} title="Directions" href="{{ site.url }}{{ site.baseurl }}/conference/directions/">Directions</a></td>
-      <td><a {% if section == "flyer" %}class="current"{% endif %} title="Flyer" href="{{ site.url }}{{ site.baseurl }}/conference/flyer/">Flyer</a></td>
+      <td><a {% if section == "abstract" %}class="current"{% endif %} title="Abstract submission" href="{{ site.url }}{{ site.baseurl }}/conference/abstract/">Abstract submission</a></td>
     </tr>
   </table>
 
@@ -61,6 +60,9 @@ layout: default
   .conference-page a:hover { color: #b2132e; }
   .conference-page a.current { color: #52739e; text-decoration: none; }
   .conference-page a.current:hover { color: #e82945; }
+
+  .conference-content { padding: 0 16px; }
+  .conference-content iframe { max-width: 100%; }
 
   /* Banner */
   .conference-banner {
@@ -206,5 +208,18 @@ layout: default
     .conference-banner .banner-bottom { font-size: 1.1em; padding: 0 12px 10px 0; }
     .conference-banner { min-height: 200px; }
     table.conference-navigation td { font-size: 1.05em; }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .conference-banner .banner-top { font-size: 2em; }
+    table.conference-navigation tr {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    table.conference-navigation td {
+      width: auto;
+      padding: 8px 12px;
+    }
   }
 </style>
