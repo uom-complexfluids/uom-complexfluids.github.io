@@ -18,7 +18,7 @@ We particularly encourage Early Career Researchers to present their work at the 
 #### Near-surface dynamics in jammed and slipping microgel suspensions,
 Prof Catherine Barentin, Institut Lumière Matière, Université Lyon 1.
 
-#### Title TBC,
+#### Narwhals and their gait at the onset of purely elastic turbulence,
 Prof Alexander Morozov, School of Physics and Astronomy, University of Edinburgh.
 
 #### Bridging the Scale Gap: From Grain-Scale Dynamics to Continuum Rheology for Segregating Granular Materials
