@@ -13,4 +13,6 @@ permalink: /conference/program/
 
 ## Conference Program
 
-TBD
+The conference will take place between the 14th of December 12:00 and the 16th of December 12:30.
+
+Full program TBD
