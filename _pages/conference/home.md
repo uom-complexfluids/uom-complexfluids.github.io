@@ -31,6 +31,7 @@ Click [here](https://forms.cloud.microsoft/e/qQci2P75JL) to submit an abstract f
 - Deadline for abstracts: 27th November
 - Deadline for registration: 6th December
 
+Prizes will be awarded to the best student presentation and poster.
 
 ## Organising Committee
 
@@ -48,6 +49,7 @@ Please email [Mihnea Cazacu](mailto:mihnea.cazacu@postgrad.manchester.ac.uk) wit
   <tr>
     <td><img alt="British Society of Rheology" src="/images/bsrlogo.jpg" class="r" width="100%"></td>
     <td><img alt="University of Manchester" src="/images/uomlogo.png" class="r" width="100%"></td>    
+    <td><img alt="Institute of Physics" src="/images/ioplogo.jpeg" class="r" width="100%"></td>    
   </tr>
 </table>
 
